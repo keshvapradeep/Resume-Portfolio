@@ -10,7 +10,7 @@ let loadedImages = 0;
 
 for (let i = 1; i <= frameCount; i++) {
   const img = new Image();
-  img.src = `images/ezgif-frame-${String(i).padStart(3, "0")}.png`;
+  img.src = `images/ezgif-frame-${String(i).padStart(3, "0")}.jpg`;
   images.push(img);
   img.onload = () => loadedImages++;
 }
